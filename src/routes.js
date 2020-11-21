@@ -1,10 +1,12 @@
 const express = require('express');
-const UserControllers = require('./controllers/UserController');
+const UserControllers = require('./controllers/UserController')
 
 
 const routes = express.Router();
 
-routes.post('/users',UserControllers.Store)
+routes.get('/users',UserControllers.index);
+routes.post('/users',UserControllers.Store);
+
 
 module.exports = routes;
 
