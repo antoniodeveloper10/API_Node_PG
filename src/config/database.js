@@ -3,7 +3,7 @@ module.exports = {
     host: 'localhost',
     username: 'postgres',
     password: 'ns1109TI',
-    database: 'sqlnode',
+    database: 'sqlnodes',
     define: {
         timestamps: true, // informa que as tabelas teram colunas com datatime criada e atualizada
         underscored: true,
