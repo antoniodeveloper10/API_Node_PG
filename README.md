@@ -1,5 +1,5 @@
 # API_Node_PG
-API  feita em Node usando a base de dados do PG
+API  feita em Node usando a base de dados Postgres e ORM Sequelize
 # comandos
 Iniciar servidor
  yarn dev
